@@ -33,7 +33,7 @@ const MobileMenu = () => {
         src={menuOpen ? "/close.png" : "/open.png"}
         alt=""
         width={20}
-        height={20}
+        height={17}
         onClick={handleMenu}
       />
       {menuOpen && (
