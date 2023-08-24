@@ -50,7 +50,7 @@ const Slider = () => {
         </button>
       </div>
       {/** IMAGE CONTAINER */}
-      <div className="flex-1 relative">
+      <div className="flex-1 relative w-full">
         <Image
           src={data[currentSlide].image}
           alt=""

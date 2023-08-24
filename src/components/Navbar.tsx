@@ -6,7 +6,7 @@ import Image from "next/image";
 const Navbar = () => {
   const user = false;
   return (
-    <nav className="h-12 md:h-24 text-red-500 p-4 flex-between border-b-2 border-b-red-500 uppercase lg:px-16 xl:px-40">
+    <nav className="h-12 md:h-24 text-red-500 p-4 flex-between border-b-2 border-b-red-500 uppercase lg:px-20 xl:px-40">
       {/** LEFT LINKS */}
       <div className="hidden flex-1 md:flex items-center gap-4">
         <Link href="/">HOME</Link>
@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link href="/">CONTACT</Link>
       </div>
       {/** LOGO */}
-      <div className="text-xl flex-1 md:text-center md:font-bold">
+      <div className="text-xl md:w-max md:px-4 md:font-bold">
         <Link href="/">MASSIMO</Link>
       </div>
       {/** MOBILE MENU */}
