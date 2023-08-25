@@ -15,14 +15,20 @@ const Featured = () => {
           >
             {/* IMAGE CONTAINER */}
             <div className="relative w-full flex-1 hover:rotate-[60deg] transition-all duration-300">
-              <Image src={product.img} alt="" fill className="object-contain" />
+              <Image
+                src={product.img}
+                alt=""
+                fill
+                sizes="(max-width: 767px) 100vw, (max-width: 1279px) 50vw, (min-width: 1280px) 33vw "
+                className="object-contain"
+              />
             </div>
             {/* TEXT CONTAINER */}
             <div className="flex-1 flex-center flex-col gap-4 text-red-500">
               <h1 className="font-bold text-xl uppercase xl:text-2xl">
                 {product.title}
               </h1>
-              <p className="text-sm md:text-base text-center p-4 2  xl:p-8">
+              <p className="text-sm sm:text-base text-center p-4 2  xl:p-8">
                 {product.desc}
               </p>
               <span className="font-bold text-xl">${product.price}</span>
