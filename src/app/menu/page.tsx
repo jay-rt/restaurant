@@ -34,7 +34,6 @@ const Menu = () => {
           </div>
         </Link>
       ))}
-      <div></div>
     </main>
   );
 };
