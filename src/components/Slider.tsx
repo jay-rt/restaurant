@@ -39,10 +39,10 @@ const Slider = () => {
   // }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] bg-fuchsia-50">
+    <div className="flex flex-col lg:flex-row h-fullscreen bg-fuchsia-50">
       {/** TEXT CONTAINER */}
       <div className="flex-1 flex-center flex-col gap-8 font-bold">
-        <h1 className="text-red-500 text-center p-4 md:p-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase">
+        <h1 className="text-red-500 text-center p-4 md:p-10 text-4xl sm:text-4xl md:text-5xl lg:text-6xl uppercase">
           {data[currentSlide].title}
         </h1>
         <button type="button" className="bg-red-500 text-white py-4 px-8">

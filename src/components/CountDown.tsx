@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const CountDownTimer = () => {
+const CountDown = () => {
   const startDate = new Date("2023-08-27");
   const currentDate = Date.now();
   const difference = startDate.valueOf() - currentDate.valueOf();
@@ -37,4 +37,4 @@ const CountDownTimer = () => {
   );
 };
 
-export default CountDownTimer;
+export default CountDown;

@@ -9,3 +9,11 @@
 .flex-between {
   @apply flex justify-between items-center;
 }
+
+.p-x-responsive {
+  @apply p-4 lg:px-20 xl:px-40;
+}
+
+.h-fullscreen {
+  @apply h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)];
+}

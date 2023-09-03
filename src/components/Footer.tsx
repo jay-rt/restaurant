@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="h-12 md:h-24 flex-between text-red-500 p-4 lg:p-20">
+    <div className="h-12 md:h-24 flex-between text-red-500 p-4 lg:p-20 xl:px-40 xl:py-20">
       <Link href="/" className="font-bold text-xl">
         MASSIMO
       </Link>
