@@ -9,7 +9,7 @@ const Menu = () => {
         <Link
           href={`/menu/${category.slug}`}
           key={category.id}
-          className="w-full h-1/3 md:h-2/3 xl:h-[80%] p-8 bg-cover"
+          className="w-full h-1/3 md:h-2/3 xl:h-[70%] p-8 bg-cover"
           style={{ backgroundImage: `url(${category.img})` }}
         >
           {/* TEXT CONTAINER */}
