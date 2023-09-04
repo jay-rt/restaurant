@@ -3,13 +3,13 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <main className="p-x-responsive h-fullscreen flex items-center flex-col md:flex-row">
+    <main className="p-x-responsive h-fit-screen flex items-center flex-col md:flex-row">
       {menu.map((category) => (
         //SINGLE CATEGORY
         <Link
           href={`/menu/${category.slug}`}
           key={category.id}
-          className="w-full h-1/3 md:h-1/2 xl:h-[60%] p-8 bg-cover"
+          className="w-full h-1/3 md:h-2/3 xl:h-[80%] p-8 bg-cover"
           style={{ backgroundImage: `url(${category.img})` }}
         >
           {/* TEXT CONTAINER */}

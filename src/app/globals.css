@@ -17,3 +17,7 @@
 .h-fullscreen {
   @apply h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)];
 }
+
+.h-fit-screen {
+  @apply h-[calc(100vh-9rem)] md:h-[calc(100vh-15rem)] lg:h-[calc(100vh-20rem)];
+}
