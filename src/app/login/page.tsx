@@ -5,7 +5,7 @@ const LoginPage = () => {
   return (
     <main className="p-x-responsive h-fullscreen flex-between">
       {/* CONTAINER */}
-      <div className="h-full shadow-2xl mx-auto flex flex-col md:flex-row md:h-[85%] md:w-[90%] lg:w-[70%] xl:w-[60%]">
+      <div className="h-full shadow-2xl mx-auto flex flex-col md:flex-row md:h-[80%] md:w-[90%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%]">
         {/* IMAGE CONTAINER */}
         <div className="relative h-1/3 w-full md:h-full md:w-1/2">
           <Image src="/loginBg.png" alt="" fill className="object-cover" />
